@@ -51,7 +51,7 @@ const Contact = () => {
       city: 'Remote',
       country: 'USA',
       address: 'Serving clients across United States',
-      phone: '+1-XXX-XXX-XXXX',
+      phone: 'Available on request',
       email: 'usa@crestwin.in',
       timezone: 'EST/PST',
       coordinates: [39.8283, -98.5795]
@@ -60,7 +60,7 @@ const Contact = () => {
       city: 'Remote',
       country: 'United Kingdom',
       address: 'Serving clients across UK and Europe',
-      phone: '+44-XXX-XXX-XXXX',
+      phone: 'Available on request',
       email: 'uk@crestwin.in',
       timezone: 'GMT',
       coordinates: [55.3781, -3.4360]
@@ -69,7 +69,7 @@ const Contact = () => {
       city: 'Remote',
       country: 'Australia',
       address: 'Serving clients across Australia',
-      phone: '+61-XXX-XXX-XXXX',
+      phone: 'Available on request',
       email: 'au@crestwin.in',
       timezone: 'AEST',
       coordinates: [-25.2744, 133.7751]
@@ -190,7 +190,7 @@ const Contact = () => {
                       value={formData.phone}
                       onChange={handleInputChange}
                       className="w-full px-4 py-3 bg-white/10 border border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-white placeholder-gray-400"
-                      placeholder="+1 (555) 123-4567"
+                      placeholder="+91 9876543210"
                     />
                   </div>
                 </div>
