@@ -1,7 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { FaRocket, FaGlobe, FaUsers, FaAward, FaCode, FaMobile, FaCloud, FaDatabase, FaBrain, FaDesktop, FaShieldAlt, FaChartLine } from 'react-icons/fa';
+import { FaRocket, FaGlobe, FaUsers, FaAward, FaCode, FaMobile, FaCloud, FaDatabase, FaBrain, FaDesktop } from 'react-icons/fa';
+import SEO from '../components/SEO';
 
 const Home = () => {
   const stats = [
@@ -54,17 +55,25 @@ const Home = () => {
     'React.js', 'Node.js', 'Python', 'Flutter', 'Next.js', 'Vue.js', 'AWS', 'Docker', 'PostgreSQL', 'MongoDB', 'TensorFlow', 'FastAPI'
   ];
 
-  const clients = [
-    { name: 'FinTech Startup', logo: '/api/placeholder/120/60' },
-    { name: 'Healthcare Platform', logo: '/api/placeholder/120/60' },
-    { name: 'EdTech Company', logo: '/api/placeholder/120/60' },
-    { name: 'Logistics Firm', logo: '/api/placeholder/120/60' },
-    { name: 'eCommerce Brand', logo: '/api/placeholder/120/60' },
-    { name: 'SaaS Platform', logo: '/api/placeholder/120/60' },
+  const clientIndustries = [
+    { name: 'FinTech Solutions' },
+    { name: 'Healthcare Systems' },
+    { name: 'EdTech Platforms' },
+    { name: 'Logistics Networks' },
+    { name: 'eCommerce Solutions' },
+    { name: 'SaaS Applications' },
   ];
 
   return (
-    <div className="min-h-screen pt-16">
+    <>
+      <SEO 
+        title="CrestWin Private Limited | Top Software Development Company India | Custom Web & Mobile Apps"
+        description="CrestWin Private Limited is a leading software development company in Indore, India. We specialize in custom software development, web & mobile apps, AI/ML solutions, cloud services, and enterprise solutions for startups, SMEs, and global enterprises. Code the Future, Win with CrestWin."
+        keywords="CrestWin, CrestWin Private Limited, software development company Indore, web development India, mobile app development, custom software solutions, AI ML development, cloud services, React development, Node.js development, Python development, Flutter development, enterprise software, startup solutions, Indore IT company, software company MP, CrestWin.in"
+        url="/"
+        type="website"
+      />
+      <div className="min-h-screen pt-16">
       {/* Hero Section */}
       <section className="relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-blue-900/20 to-purple-900/20"></div>
@@ -212,15 +221,15 @@ const Home = () => {
             className="text-center mb-16"
           >
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-              Trusted by Leading Companies
+              Industries We Serve
             </h2>
             <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-              We've partnered with industry leaders across the globe
+              Delivering innovative solutions across diverse industry verticals
             </p>
           </motion.div>
 
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 items-center">
-            {clients.map((client, index) => (
+            {clientIndustries.map((industry, index) => (
               <motion.div
                 key={index}
                 initial={{ opacity: 0, y: 20 }}
@@ -229,7 +238,7 @@ const Home = () => {
                 className="glass-effect p-4 rounded-lg hover:bg-white/20 transition-all duration-200"
               >
                 <div className="h-12 flex items-center justify-center text-white font-semibold">
-                  {client.name}
+                  {industry.name}
                 </div>
               </motion.div>
             ))}
@@ -268,7 +277,8 @@ const Home = () => {
           </motion.div>
         </div>
       </section>
-    </div>
+      </div>
+    </>
   );
 };
 

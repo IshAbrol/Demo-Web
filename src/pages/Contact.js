@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaLinkedin, FaTwitter, FaGithub, FaFacebook, FaInstagram, FaClock, FaGlobe } from 'react-icons/fa';
+import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaClock, FaGlobe } from 'react-icons/fa';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -41,7 +41,7 @@ const Contact = () => {
     {
       city: 'Indore',
       country: 'India (HQ)',
-      address: 'B-92, Vistara Township, MR-11 Road, Khudel, Indore, MP - 452010',
+      address: 'B-92, Vistara, MR-11 Road, Khudel, Indore, MP - 452010',
       phone: '+91 9243543141',
       email: 'info@crestwin.in',
       timezone: 'IST',
@@ -292,7 +292,7 @@ const Contact = () => {
                   <FaMapMarkerAlt className="h-5 w-5 text-blue-400 mr-4" />
                   <div>
                     <p className="text-white font-semibold">Address</p>
-                    <p className="text-gray-300">B-92, Vistara Township, MR-11 Road, Khudel, Indore, MP, India - 452010</p>
+                    <p className="text-gray-300">B-92, Vistara, MR-11 Road, Khudel, Indore, MP, India - 452010</p>
                   </div>
                 </div>
                 <div className="flex items-center">
@@ -304,26 +304,6 @@ const Contact = () => {
                 </div>
               </div>
 
-              <div className="mb-8">
-                <h3 className="text-xl font-semibold text-white mb-4">Follow us</h3>
-                <div className="flex space-x-4">
-                  <a href="#" className="p-3 glass-effect rounded-lg hover:bg-white/20 transition-colors">
-                    <FaLinkedin className="h-5 w-5 text-blue-400" />
-                  </a>
-                  <a href="#" className="p-3 glass-effect rounded-lg hover:bg-white/20 transition-colors">
-                    <FaTwitter className="h-5 w-5 text-blue-400" />
-                  </a>
-                  <a href="#" className="p-3 glass-effect rounded-lg hover:bg-white/20 transition-colors">
-                    <FaGithub className="h-5 w-5 text-blue-400" />
-                  </a>
-                  <a href="#" className="p-3 glass-effect rounded-lg hover:bg-white/20 transition-colors">
-                    <FaFacebook className="h-5 w-5 text-blue-400" />
-                  </a>
-                  <a href="#" className="p-3 glass-effect rounded-lg hover:bg-white/20 transition-colors">
-                    <FaInstagram className="h-5 w-5 text-blue-400" />
-                  </a>
-                </div>
-              </div>
 
               <div className="glass-effect p-6 rounded-xl">
                 <h3 className="text-xl font-semibold text-white mb-4">Quick Response</h3>

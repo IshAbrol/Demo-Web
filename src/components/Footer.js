@@ -61,7 +61,7 @@ const Footer = () => {
             <div className="space-y-3 text-sm">
               <div className="flex items-center space-x-2">
                 <FaMapMarkerAlt className="h-4 w-4 text-blue-400" />
-                <span className="text-gray-400">B-92, Vistara Township, Indore, MP, India - 452010</span>
+                <span className="text-gray-400">B-92, Vistara, Indore, MP, India - 452010</span>
               </div>
               <div className="flex items-center space-x-2">
                 <FaPhone className="h-4 w-4 text-blue-400" />

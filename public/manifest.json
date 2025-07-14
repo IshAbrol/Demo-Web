@@ -1,7 +1,7 @@
 {
   "short_name": "CrestWin",
-  "name": "CrestWin Private Limited - Code the Future, Win with CrestWin",
-  "description": "Software development and IT services company helping startups, SMEs, and global enterprises build scalable, secure, and high-performing digital products.",
+  "name": "CrestWin Private Limited - Top Software Development Company India",
+  "description": "CrestWin Private Limited is a leading software development company in Indore, India. We specialize in custom software development, web & mobile apps, AI/ML solutions, cloud services, and enterprise solutions for startups, SMEs, and global enterprises. Code the Future, Win with CrestWin.",
   "icons": [
     {
       "src": "favicon.png",
@@ -20,9 +20,13 @@
       "purpose": "any maskable"
     }
   ],
-  "start_url": ".",
+  "start_url": "/",
   "display": "standalone",
-  "theme_color": "#1e293b",
+  "theme_color": "#1e40af",
   "background_color": "#0f172a",
-  "categories": ["business", "productivity", "technology"]
+  "categories": ["business", "productivity", "technology", "developer"],
+  "scope": "/",
+  "orientation": "any",
+  "lang": "en",
+  "dir": "ltr"
 }

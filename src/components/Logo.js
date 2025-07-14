@@ -14,7 +14,7 @@ const Logo = ({ className = "", size = "default", variant = "full", linkTo = "/"
   const LogoImage = () => (
     <div className="relative inline-block">
       {/* White glow for better contrast and professional look */}
-      <div className="absolute inset-0 bg-gradient-to-r from-white/30 to-white/20 rounded-xl blur-xl"></div>
+      <div className="absolute inset-0 bg-gradient-to-r from-white/50 to-white/40 rounded-xl blur-xl"></div>
       
       {/* Logo with enhanced contrast and visibility */}
       <div className="relative">
@@ -23,7 +23,7 @@ const Logo = ({ className = "", size = "default", variant = "full", linkTo = "/"
           alt="CrestWin Private Limited - Code the Future, Win with CrestWin"
           className={`${currentSize.height} ${currentSize.width} object-contain hover:scale-105 hover:brightness-110 transition-all duration-300`}
           style={{ 
-            filter: 'contrast(1.2) saturate(1.1) drop-shadow(0 0 16px rgba(255, 255, 255, 0.7)) drop-shadow(0 4px 16px rgba(0, 0, 0, 0.7))',
+            filter: 'contrast(1.2) saturate(1.1) drop-shadow(0 0 20px rgba(255, 255, 255, 0.9)) drop-shadow(0 4px 20px rgba(0, 0, 0, 0.8))',
             imageRendering: 'crisp-edges'
           }}
         />
@@ -46,13 +46,13 @@ const Logo = ({ className = "", size = "default", variant = "full", linkTo = "/"
   const LogoIcon = () => (
     <div className="relative inline-block">
       {/* White glow for better visibility */}
-      <div className="absolute inset-0 bg-white/20 rounded-full blur-md"></div>
+      <div className="absolute inset-0 bg-white/40 rounded-full blur-md"></div>
       <img
         src="/favicon.png"
         alt="CrestWin"
         className={`${currentSize.height} ${currentSize.height} object-contain hover:opacity-90 transition-all duration-200 relative`}
         style={{ 
-          filter: 'drop-shadow(0 0 8px rgba(255, 255, 255, 0.6)) drop-shadow(0 2px 8px rgba(0,0,0,0.4))'
+          filter: 'drop-shadow(0 0 12px rgba(255, 255, 255, 0.8)) drop-shadow(0 2px 12px rgba(0,0,0,0.6))'
         }}
       />
     </div>
