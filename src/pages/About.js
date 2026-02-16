@@ -7,7 +7,7 @@ const About = () => {
     {
       year: '2025',
       title: 'Company Founded',
-      description: 'CrestWin Private Limited founded by Jay Tandon and Aarush Dhavale in Indore'
+      description: 'CrestWin Private Limited founded by Shivank Goswami and Aarush Dhavale in Indore'
     },
     {
       year: '2025',
@@ -38,11 +38,11 @@ const About = () => {
 
   const team = [
     {
-      name: 'Jay Tandon',
+      name: 'Shivank Goswami',
       role: 'Founder & CEO',
       image: '/api/placeholder/300/300',
-      description: '10+ years in enterprise architecture, digital strategy, and IT leadership',
-      social: { linkedin: 'https://linkedin.com/in/jaytandon', twitter: '#' }
+      description: 'Seasoned software engineering professional with 8+ years of experience in full-stack development and cloud-native applications',
+      social: { linkedin: 'https://linkedin.com/in/shivank-goswami', twitter: '#' }
     },
     {
       name: 'Aarush Dhavale',
@@ -125,8 +125,8 @@ const About = () => {
                 Our Story
               </h2>
               <p className="text-gray-300 mb-6">
-                CrestWin was born from a simple belief: technology should empower businesses 
-                to achieve their full potential. What started as a vision of Jay Tandon and Aarush Dhavale 
+                CrestWin was born from a simple belief: technology should empower businesses
+                to achieve their full potential. What started as a vision of Shivank Goswami and Aarush Dhavale
                 in Indore has grown into a trusted technology partner for global enterprises.
               </p>
               <p className="text-gray-300 mb-6">

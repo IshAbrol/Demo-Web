@@ -57,7 +57,7 @@ const Header = () => {
             <a href="tel:+919243543141" className="text-gray-300 hover:text-white" onClick={() => trackButtonClick('Phone Click', 'header')}>
               <FaPhone className="h-4 w-4" />
             </a>
-            <a href="mailto:info@crestwin.in" className="text-gray-300 hover:text-white" onClick={() => trackButtonClick('Email Click', 'header')}>
+            <a href="mailto:hr@crestwin.in" className="text-gray-300 hover:text-white" onClick={() => trackButtonClick('Email Click', 'header')}>
               <FaEnvelope className="h-4 w-4" />
             </a>
             <Link

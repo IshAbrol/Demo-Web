@@ -54,13 +54,13 @@ const SEO = ({
       <link rel="canonical" href={fullUrl} />
       
       {/* Business Contact Information */}
-      <meta property="business:contact_data:street_address" content="B-92, Vistara, MR-11 Road, Khudel" />
+      <meta property="business:contact_data:street_address" content="Plot Number 211, 2nd Floor, Scheme Number 134, Near NRK Luxe" />
       <meta property="business:contact_data:locality" content="Indore" />
       <meta property="business:contact_data:region" content="Madhya Pradesh" />
       <meta property="business:contact_data:postal_code" content="452010" />
       <meta property="business:contact_data:country_name" content="India" />
       <meta property="business:contact_data:phone_number" content="+91-9243543141" />
-      <meta property="business:contact_data:email" content="info@crestwin.in" />
+      <meta property="business:contact_data:email" content="hr@crestwin.in" />
 
       {/* JSON-LD Structured Data for Local Business */}
       <script type="application/ld+json">
@@ -73,10 +73,10 @@ const SEO = ({
             "description": "${description}",
             "url": "${fullUrl}",
             "telephone": "+91-9243543141",
-            "email": "info@crestwin.in",
+            "email": "hr@crestwin.in",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "B-92, Vistara, MR-11 Road, Khudel",
+              "streetAddress": "Plot Number 211, 2nd Floor, Scheme Number 134, Near NRK Luxe",
               "addressLocality": "Indore",
               "addressRegion": "Madhya Pradesh",
               "postalCode": "452010",
