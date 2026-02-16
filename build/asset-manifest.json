@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.22a2c3d2.css",
-    "main.js": "/static/js/main.2a360499.js",
-    "index.html": "/index.html",
-    "main.22a2c3d2.css.map": "/static/css/main.22a2c3d2.css.map",
-    "main.2a360499.js.map": "/static/js/main.2a360499.js.map"
+    "main.css": "/CrestWin/static/css/main.4ccafc88.css",
+    "main.js": "/CrestWin/static/js/main.f147dcb4.js",
+    "index.html": "/CrestWin/index.html",
+    "main.4ccafc88.css.map": "/CrestWin/static/css/main.4ccafc88.css.map",
+    "main.f147dcb4.js.map": "/CrestWin/static/js/main.f147dcb4.js.map"
   },
   "entrypoints": [
-    "static/css/main.22a2c3d2.css",
-    "static/js/main.2a360499.js"
+    "static/css/main.4ccafc88.css",
+    "static/js/main.f147dcb4.js"
   ]
 }
