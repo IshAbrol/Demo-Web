@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { FaRocket, FaGlobe, FaUsers, FaAward, FaCode, FaMobile, FaCloud, FaDatabase, FaBrain, FaDesktop } from 'react-icons/fa';
 import SEO from '../components/SEO';
+import ThreeBackground from '../components/ThreeBackground';
 import { trackButtonClick } from '../utils/analytics';
 
 const Home = () => {
@@ -67,14 +68,15 @@ const Home = () => {
 
   return (
     <>
-      <SEO 
+      <SEO
         title="CrestWin Private Limited | Top Software Development Company India | Custom Web & Mobile Apps"
         description="CrestWin Private Limited is a leading software development company in Indore, India. We specialize in custom software development, web & mobile apps, AI/ML solutions, cloud services, and enterprise solutions for startups, SMEs, and global enterprises. Code the Future, Win with CrestWin."
         keywords="CrestWin, CrestWin Private Limited, software development company Indore, web development India, mobile app development, custom software solutions, AI ML development, cloud services, React development, Node.js development, Python development, Flutter development, enterprise software, startup solutions, Indore IT company, software company MP, CrestWin.in"
         url="/"
         type="website"
       />
-      <div className="min-h-screen pt-16">
+      <ThreeBackground />
+      <div className="min-h-screen pt-16 relative z-10" style={{ background: 'transparent' }}>
       {/* Hero Section */}
       <section className="relative overflow-hidden min-h-[80vh] flex items-center">
         <div className="absolute inset-0 bg-gradient-to-br from-red-900/10 via-red-800/5 to-transparent"></div>
